@@ -41,10 +41,10 @@
         <url>http://api.yelp.com/business_review_search</url>
       </urls>
       <inputs>
-        <key id="location" type="xs:string" paramType="query" required="true" />
+        <key id="location" type="xs:string" paramType="query"  />
         <key id="term" type="xs:string" paramType="query" />
         <key id="radius" type="xs:float" paramType="query" />
-        <key id="num_biz_requested" type="xs:integer" paramType="query" default="10" required="true" />
+        <key id="num_biz_requested" type="xs:integer" paramType="query" default="10" />
         <key id="category" type="xs:string" paramType="query" />
         <key id="ywsid" type="xs:string" paramType="query" required="true" />
       </inputs>
