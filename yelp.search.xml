@@ -10,16 +10,8 @@
   
     <select itemPath="json.businesses" produces="JSON">
       <urls>
-        <url>http://api.yelp.com/business_review_search</url>
+<url>http://api.yelp.com/business_review_search?term=cream%20puffs&location=650%20Mission%20St%2ASan%20Francisco%2A%20CA&ywsid=6L0Lc-yn1OKMkCKeXLD4lg</url>
       </urls>
-      <inputs>
-        <key id="location" type="xs:string" paramType="query" required="true" />
-        <key id="term" type="xs:string" paramType="query" />
-        <key id="radius" type="xs:float" paramType="query" />
-        <key id="num_biz_requested" type="xs:integer" paramType="query" default="10" required="true" />
-        <key id="category" type="xs:string" paramType="query" />
-        <key id="ywsid" type="xs:string" paramType="query" required="true" />
-      </inputs>
     </select>
   </bindings>
 </table>
