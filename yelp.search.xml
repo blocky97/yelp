@@ -10,7 +10,7 @@
   
     <select itemPath="json.businesses" produces="JSON">
       <urls>
-<url>http://api.yelp.com/business_review_search?term=cream%20puffs&amp;ywsid=6L0Lc-yn1OKMkCKeXLD4lg</url>
+<url>http://api.yelp.com/business_review_search?location=Denver&amp;ywsid=6L0Lc-yn1OKMkCKeXLD4lg</url>
       </urls>
     </select>
   </bindings>
